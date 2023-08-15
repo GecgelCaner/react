@@ -8,9 +8,9 @@ const Navbar = () => {
   const logoutFunc = async () => {
     toast.success("Çıkış işlemi gerçekleştiriyor.");
     await signOut(auth);
-    setTimeout(() => { 
+    setTimeout(() => {
       window.location = "/";
-    }, 2000);
+    }, 1000);
   };
 
   return (
