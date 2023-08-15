@@ -13,9 +13,9 @@ const Input: React.FC<Iprops> = ({ todo, setTodo, addMessage }) => {
         value={todo}
         onChange={(e) => setTodo(e.target.value)}
         type="text"
-        placeholder="Yazınız"
+        placeholder="Write Here"
       />
-      <button onClick={addMessage}>Ekle</button>
+      <button onClick={addMessage}>Add</button>
     </div>
   );
 };
